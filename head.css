@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding:0;
+    display:position;
+}
+
+.link{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right: 0;
+    text-align:right;
+    font-size:0.7em;
+}
+.link a{
+text-decoration:none;
+color: black;
+padding:0.7em;
+}
+.link a:hover{
+color:rgb(161, 30, 30);
+}
+.bag{
+    grid-area: d;
+    text-align:right;
+}
+.class{
+    grid-area:a;
+}
+.nav{
+    grid-area:c;
+}
+.h1{
+    grid-area:b;
+    padding-left: 0;
+    font-size:8px;
+    padding-top:3em;
+    padding-bottom:3em;
+}
+.girl{
+    grid-area:g;
+    text-align: right;
+    padding-top:1em;
+    margin-bottom: 0;
+}
+.parent{
+    background-color:white;
+    width:100%;
+    position:fixed;
+    box-shadow:0 3px 0  grey;
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns:0.5fr 3fr 6fr 0.5fr;
+    grid-template-areas: "a b c d" "e f g h";
+}
+.service{
+    display:grid;
+    grid-template-rows:2fr 2fr ;
+    grid-template-columns:1fr 3fr 1fr 3fr 1fr 3fr ;  
+    background-color:rgb(161, 30, 30);
+    color:white;
+}
+.skillimg{
+   align-self: center;
+   justify-self: center;
+}
+.skills{
+    align-self: center;
+}
+.techimg{
+    align-self: center;
+    justify-self: center;
+}
+.tech{
+    align-self:center;
+}
+.ictimg{
+    align-self: center;
+    justify-self: center;
+}
+.ict{
+    align-self:center;  
+}
+.onlinemarket{
+    align-self: center;
+    justify-self: center;
+}
+.om{
+    align-self: center;
+    justify-self: center;  
+}
+.graphicsimg{
+    align-self: center;
+    justify-self: center;  
+}
+.graphics{
+    align-self: center;
+    justify-self: center;  
+}
+.h{
+    text-align:center;
+    color:white;
+    background-color:rgb(161, 30, 30);
+}
+.botton{
+    text-align:center;
+}
+input{
+    padding-left:10em;
+    padding-right:10em;
+    background-color:rgb(161, 30, 30);
+    border:1px solid white;
+    padding-top:0.7em;
+    padding-bottom:0.7em;
+    color:white;
+}
+.section{
+    background-color:rgb(161, 30, 30);
+}
+input:hover{
+    cursor:pointer;
+}
+.footer{
+    display:grid;
+    grid-template-columns: 2fr 4fr 2fr 4fr 7fr;
+    grid-template-rows: 4fr 4fr;
+    width:100%;
+    grid-template-areas:"A B C D E" "F G H I J"
+    
+}
+.c{
+    background-color:rgb(161, 30, 30);
+    color:white;
+}
+.desktopimg{
+    grid-area:A;
+    justify-self:center;
+    align-self:center;
+}
+.desktop{
+    grid-area:B;
+    color:white;
+    align-self:center;
+}
+.webdevelopmentimg{
+    grid-area:C;
+    justify-self:center;
+    align-self:center;
+}
+.webdevelopment{
+    grid-area:D;
+    color:white;
+    align-self:center;
+}
+.electronicsimg{
+    grid-area:F;
+    justify-self:center;
+    align-self:center;
+}
+.electronics{
+    grid-area:G;
+    align-self:center;
+    color:white;
+}
+.computermaintenaceimg{
+    grid-area:H;
+    justify-self:center;
+    align-self:center;
+}
+.computermaintenace{
+    grid-area:I;
+    align-self:center;
+    color:white;
+}
+.girl2{
+    grid-area:E;
+   grid-row-start:E; 
+   grid-row-end:J;
+}
+.footer{
+    background-color:rgb(161, 30, 30);
+}
+.seemore{
+    background-color:rgb(161, 30, 30);
+}
